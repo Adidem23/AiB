@@ -1,0 +1,43 @@
+/* body {
+    background: linear-gradient(180deg, rgb(56, 56, 56) 0%, rgb(36, 36, 36) 66%, rgb(41, 41, 41) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.con{
+    background: linear-gradient(180deg, rgb(56, 56, 56) 0%, rgb(36, 36, 36) 66%, rgb(41, 41, 41) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Robotdiv {
+    /* background-image: url('./Components/Speedline-2s-1197px.svg');
+    back */
+    background: linear-gradient(180deg, rgb(56, 56, 56) 0%, rgb(36, 36, 36) 66%, rgb(41, 41, 41) 100%);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px #0072ff;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 0px #0072ff;
+}
+
+.button:active {
+    transform: translateY(0px);
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right, #0072ff, #00c6ff);
+}
