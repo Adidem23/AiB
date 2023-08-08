@@ -2,8 +2,7 @@ import { Container } from '@nextui-org/react'
 import React, { useState } from 'react';
 import { Card, Grid, Text, Button, Row, Input } from "@nextui-org/react";
 import axios from 'axios';
-import { useContract, useContractWrite } from "@thirdweb-dev/react";
-import { ThirdwebSDK } from "@thirdweb-dev/sdk";
+import { ThirdwebSDK, useContract, useAddress } from "@thirdweb-dev/react";
 import { ethers } from 'ethers';
 
 const MintPage = () => {
@@ -12,6 +11,8 @@ const MintPage = () => {
     const [NFtName, setNFtName] = useState(null);
     const [Image, setImage] = useState(null);
     const [Account, setAccount] = useState(null);
+    const address234 = useAddress();
+    const contract1 = useContract("0xf6d289B4fD2980A5c518F161FeF877A6a500527A");
 
     const setName = (e) => {
         setNFtName(e.target.value);
@@ -64,13 +65,15 @@ const MintPage = () => {
         }, 1000);
     }
 
-    // const MintNft = async () => {
-    //     try {
-    //         ListNFT();
-    //     } catch (err) {
-    //         alert("Error is Occured : " + err);
-    //     }
-    // }
+    const MintNft = async () => {
+        try {
+            ListNFT();
+        } catch (err) {
+            alert("Error is Occured : " + err);
+        }
+    }
+
+
 
     const createImage = async () => {
 
@@ -126,37 +129,26 @@ const MintPage = () => {
 
             const providers = new ethers.providers.Web3Provider(window.ethereum);
 
-            // const Signer = providers.getSigner();
-
             const Signer = new ethers.Wallet("5ad7f7823ac4a9518b1ce47b007c63c150bc31382d6878d48cce4abb2cc707ef", providers);
 
             const sdkt = ThirdwebSDK.fromSigner(Signer);
 
             sdkt.wallet.connect(Signer);
 
-            // 0x5000492764633821eA9549f5F0b9816EE04789F3
-            // 0xf6d289B4fD2980A5c518F161FeF877A6a500527A
 
             const contractnew = await sdkt.getContract("0xf6d289B4fD2980A5c518F161FeF877A6a500527A");
 
 
             await contractnew.roles.grant("minter", Account);
             
-
-            const newSigner=providers.getSigner();
-            const sdkt2 = ThirdwebSDK.fromSigner(newSigner);
-            sdkt2.wallet.connect(newSigner);
-            const contractnew2 = await sdkt2.getContract("0xf6d289B4fD2980A5c518F161FeF877A6a500527A");
-    
-
             try {
                 const payload = {
                     to: Account,
                     metadata: metadata,
                     price: '0.01'
                 }
-                const signpayload = await contractnew2.erc721.signature.generate(payload);
-                const tx = await contractnew2.erc721.signature.mint(signpayload);
+                const signpayload= await contract1.contract.erc721.signature.generate(payload);
+                const tx = await contract1.contract.erc721.signature.mint(signpayload);
                 const receipt = tx.receipt;
                 const tokenId = tx.id;
 
@@ -213,7 +205,7 @@ const MintPage = () => {
                         <Card.Footer>
                             <Row style={{ display: "block", margin: "auto", width: "fit-content" }} >
                                 <Button id='But5' onClick={GenerateImagePlease} >Generate</Button>
-                                <Button onClick={ListNFT} style={{ marginTop: "20px" }} >Mint</Button>
+                                <Button onClick={MintNft} style={{ marginTop: "20px" }} >Mint</Button>
                             </Row>
                         </Card.Footer>
                     </Card>

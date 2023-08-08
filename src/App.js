@@ -1,11 +1,10 @@
 import './App.css';
-import { ThirdwebProvider, ChainId } from "@thirdweb-dev/react";
+import { ThirdwebSDKProvider } from "@thirdweb-dev/react";
 import React from 'react';
-import Form from './Components/Form';
 import FrontPage from './Components/FrontPage';
 import MintPage from './Components/MintPage';
-import { useChainId } from '@thirdweb-dev/react';
 import { Routes, Route, } from 'react-router';
+import { ethers } from 'ethers';
 
 function App() {
 
@@ -13,14 +12,12 @@ function App() {
 
 
   return (
-    <ThirdwebProvider activeChain={ActiveChainId}>
+    <ThirdwebSDKProvider activeChain={ActiveChainId} signer={new ethers.providers.Web3Provider(window.ethereum).getSigner()} clientId="5fb26c268ed64fb73d9fb6010411dca9">
       <Routes>
-        {/* < Form /> */}
-        {/* <Route path='/' Component={Form} /> */}
         <Route path='/' Component={FrontPage} />
         <Route path='/mint' Component={MintPage} />
       </Routes>
-    </ThirdwebProvider>
+    </ThirdwebSDKProvider>
 
   );
 }
