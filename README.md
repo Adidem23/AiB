@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Welcome to our web-based C compiler visualization tool! Our platform is designed to empower both novice and experienced programmers by providing a unique and user-friendly way to interact with and understand the intricacies of C programming. With our tool, you can not only write, compile, and run C code directly in your web browser but also visualize the entire compilation process step by step. Whether you're a student learning C or a seasoned developer looking for a powerful debugging and teaching resource, our tool is here to simplify your journey. Explore the fascinating world of C programming with ease, boost your coding skills, and gain a deeper understanding of the compiler's inner workings. We're excited to be your trusted companion in your programming adventures
+The AI NFT Generator Project is not just about the fusion of AI and NFTs; it represents a shift in the art and technology landscape, where creativity and innovation are boundless. As the project continues to evolve, it promises to reshape how we perceive, create, and trade art in the digital age, making art more accessible and collectible than ever before.
 
 ### Built With
 
