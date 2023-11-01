@@ -28,12 +28,10 @@
 The AI NFT Generator Project is not just about the fusion of AI and NFTs; it represents a shift in the art and technology landscape, where creativity and innovation are boundless. As the project continues to evolve, it promises to reshape how we perceive, create, and trade art in the digital age, making art more accessible and collectible than ever before.
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
+I have Built This Project Using Following Tech Stack mentioned below 
  - [![My Skills](https://skillicons.dev/icons?i=react&perline=3)](https://skillicons.dev) ReactJs
- - [![My Skills](https://skillicons.dev/icons?i=nodejs&perline=3)](https://skillicons.dev) NodeJs
- - [![My Skills](https://skillicons.dev/icons?i=express&perline=3)](https://skillicons.dev) ExpressJs
+ - [![My Skills](https://skillicons.dev/icons?i=solidity&perline=3)](https://skillicons.dev) solidity
+ - [![My Skills](https://skillicons.dev/icons?i=&perline=3)](https://skillicons.dev) ExpressJs
  - [![My Skills](https://skillicons.dev/icons?i=linux&perline=3)](https://skillicons.dev) Linux
  - [![My Skills](https://skillicons.dev/icons?i=docker&perline=3)](https://skillicons.dev) Docker
  - [![My Skills](https://skillicons.dev/icons?i=bash&perline=3)](https://skillicons.dev) Bash-Shell
