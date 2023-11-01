@@ -1,6 +1,5 @@
 <div align="center">
-![AiB_logo](https://github.com/Adidem23/AiB/assets/124609794/8a564ba3-1e2f-4b80-be28-aadb0a408e30)
-
+  <img src="https://github.com/Adidem23/AiB/assets/124609794/8a564ba3-1e2f-4b80-be28-aadb0a408e30" />
   <h3 align="center">AiB: AI NFT Generator</h3>
 </div>
 <details>
