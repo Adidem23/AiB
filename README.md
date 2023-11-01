@@ -31,7 +31,8 @@ The AI NFT Generator Project is not just about the fusion of AI and NFTs; it rep
 I have Built This Project Using Following Tech Stack mentioned below 
  - [![My Skills](https://skillicons.dev/icons?i=react&perline=3)](https://skillicons.dev) ReactJs
  - [![My Skills](https://skillicons.dev/icons?i=solidity&perline=3)](https://skillicons.dev) solidity
- - AlongSide This Used Lex,Flex, Bison , NodeJs-Child Processes , File Handling 
+ - For Genration of Image from User Prompt Input I have used Stable Diffusion Model from Hugging Face
+ - For Miniting and NFT Minting I have used ThirdwebSDk for that purpose  
 
 <!-- GETTING STARTED -->
 ### Prerequisites
