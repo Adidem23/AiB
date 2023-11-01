@@ -42,13 +42,12 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
-  
-* Linux or Ubuntu must be there in your system
-
 * NodeJs
   ```sh
   Download Nodejs Version ^ 17.0.0 LTS 
   ```
+* You must Have Metamask Installed on system and You Must Have Polygon-mumbai matic tokens For transactions
+* You must Have Thirdweb Account For That 
 
 ### Installation
 Follow The Installation manual and install dependencies 
