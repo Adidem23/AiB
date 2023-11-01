@@ -31,10 +31,6 @@ The AI NFT Generator Project is not just about the fusion of AI and NFTs; it rep
 I have Built This Project Using Following Tech Stack mentioned below 
  - [![My Skills](https://skillicons.dev/icons?i=react&perline=3)](https://skillicons.dev) ReactJs
  - [![My Skills](https://skillicons.dev/icons?i=solidity&perline=3)](https://skillicons.dev) solidity
- - [![My Skills](https://skillicons.dev/icons?i=&perline=3)](https://skillicons.dev) ExpressJs
- - [![My Skills](https://skillicons.dev/icons?i=linux&perline=3)](https://skillicons.dev) Linux
- - [![My Skills](https://skillicons.dev/icons?i=docker&perline=3)](https://skillicons.dev) Docker
- - [![My Skills](https://skillicons.dev/icons?i=bash&perline=3)](https://skillicons.dev) Bash-Shell
  - AlongSide This Used Lex,Flex, Bison , NodeJs-Child Processes , File Handling 
 
 <!-- GETTING STARTED -->
