@@ -87,11 +87,10 @@ Follow The Installation manual and install dependencies
 
 
 - Genearted Image :
-
-  ![image](https://github.com/Adidem23/AiB/assets/124609794/a89e1645-5a36-485e-85dc-7d5c6fcb7a34)
-
+![image](https://github.com/Adidem23/AiB/assets/124609794/3c6b4325-e7fa-4a76-ae2b-502e038b3276)
 
 - Minted NFT :
+![image](https://github.com/Adidem23/AiB/assets/124609794/adaef021-5db8-4e00-9e47-57cf087ec4fa)
 
 
 - Video Output of Code :
@@ -101,7 +100,7 @@ https://www.loom.com/share/87013f63230e4d0aabe70a637c99db42?sid=b230e656-7912-4c
 ## Deployment Links :
 
 - Thirdweb Smart Contract Link :
-  
+https://thirdweb.com/mumbai/0x7bBa929Fd6c5b3aaf8a839724c48ab081f32a7c6
 
 - Vercel Deployed Link :
   https://adityaainft.vercel.app/
