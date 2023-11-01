@@ -77,12 +77,19 @@ Follow The Installation manual and install dependencies
 4.Open Metamask and Mint NFTs !! 😎
 ## Output and Screenshots and Video Output :
 
-- FrontPage :  
+- FrontPage :
+  
 ![image](https://github.com/Adidem23/AiB/assets/124609794/6847ba27-4e86-4da3-9b24-9c05b852aca1)
 
 - MintPage :
 
-- Genearted Image : 
+  ![image](https://github.com/Adidem23/AiB/assets/124609794/e0b77ae8-8804-402b-8674-5c3fa7919c31)
+
+
+- Genearted Image :
+
+  ![image](https://github.com/Adidem23/AiB/assets/124609794/a89e1645-5a36-485e-85dc-7d5c6fcb7a34)
+
 
 - Minted NFT :
 
@@ -93,4 +100,11 @@ https://www.loom.com/share/87013f63230e4d0aabe70a637c99db42?sid=b230e656-7912-4c
 
 ## Deployment Links :
 
+- Thirdweb Smart Contract Link :
+  
 
+- Vercel Deployed Link :
+  https://adityaainft.vercel.app/
+
+- Fleek Deployed Link :
+  https://lingering-cherry-6342.on.fleek.co/
