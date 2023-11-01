@@ -3,8 +3,9 @@
   <h3 align="center">AiB: AI NFT Generator</h3>
 </div>
 
-![Contributors](https://img.shields.io/github/contributors/ShaanCoding/ReadME-Generator?color=dark-green) ![Forks](https://img.shields.io/github/forks/ShaanCoding/ReadME-Generator?style=social) ![Stargazers](https://img.shields.io/github/stars/ShaanCoding/ReadME-Generator?style=social) ![Issues](https://img.shields.io/github/issues/ShaanCoding/ReadME-Generator)
-
+<div align="center">
+![Contributors](https://img.shields.io/github/contributors/Adidem23/AiB?color=dark-green) ![Forks](https://img.shields.io/github/forks/Adidem23/AiB?style=social) ![Stargazers](https://img.shields.io/github/stars/Adidem23/AiB?style=social) ![Issues](https://img.shields.io/github/issues/Adidem23/AiB)
+</div>
 <details>
   <summary>Table of Contents</summary>
   <ol>
