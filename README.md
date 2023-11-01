@@ -4,9 +4,14 @@
 </div>
 
 <div align="center">
-![Contributors](https://img.shields.io/github/contributors/Adidem23/AiB?color=dark-green) ![Forks](https://img.shields.io/github/forks/Adidem23/AiB?style=social)
-  ![Stargazers](https://img.shields.io/github/stars/Adidem23/AiB?style=social) ![Issues](https://img.shields.io/github/issues/Adidem23/AiB)
+  
+  ![Contributors](https://img.shields.io/github/contributors/Adidem23/AiB?color=dark-green)
+  ![Forks](https://img.shields.io/github/forks/Adidem23/AiB?style=social)
+  ![Stargazers](https://img.shields.io/github/stars/Adidem23/AiB?style=social) 
+  ![Issues](https://img.shields.io/github/issues/Adidem23/AiB)
+  
 </div>
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
