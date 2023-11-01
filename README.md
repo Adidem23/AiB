@@ -78,6 +78,7 @@ Follow The Installation manual and install dependencies
 ## Output and Screenshots and Video Output :
 
 - FrontPage :  
+![image](https://github.com/Adidem23/AiB/assets/124609794/6847ba27-4e86-4da3-9b24-9c05b852aca1)
 
 - MintPage :
 
