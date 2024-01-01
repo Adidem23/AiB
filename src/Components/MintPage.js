@@ -80,7 +80,7 @@ const MintPage = () => {
         const Apikey = "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"
 
         const response = await axios({
-            url: "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1-base",
+            url: "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5",
 
             method: 'POST',
 
